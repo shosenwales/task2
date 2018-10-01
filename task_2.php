@@ -71,7 +71,7 @@
 
 			    </tr>';
 
-			if ($scores<50 && $scores >=0) { 
+			if ( $scores >=0 &&   $scores=<50){ 
 
 				$lessthan	[] = $scores;
 
